@@ -1,0 +1,108 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #fcfcfc;
+  }
+  
+  .header-container {
+        padding-top: 55px;
+      }
+  
+      header {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 20px;
+      }
+  
+  
+  nav a {
+    letter-spacing: 5px;
+    margin: 100px;
+    text-decoration-line: none;
+    color: #838181;
+  }
+  
+  a:last-child {
+    color: #34628d;
+  }
+  
+  .aboutme {
+    letter-spacing: 10px;
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 2; /* 이미지보다 위에 위치하도록 z-index 값 조절 */
+  }
+  
+  
+  .image_wrapper {
+    width: 100%;
+    height: auto; /* 이미지 세로 크기 유지 */
+    position: relative;
+    margin-top: 90px; /* .aboutme 클래스의 높이만큼 이미지 상단 여백 조절 */
+  }
+  
+  .image_wrapper img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .WHO {
+    color:#34628d;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column; /* 이미지와 h2를 수직으로 배치 */
+    align-items: flex-end; /* flex-end로 설정하여 오른쪽으로 정렬 */
+    position: relative;
+    margin-top: 200px;
+    right: 100px;
+  }
+  
+  
+  .WHO h2 span {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .section1 {
+    width: 50%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 100px;
+    margin-top: 550px;
+  }
+  
+  .section1 img {
+    width: 50%;
+  }
+  
+  
+  .section2 {
+    width: 50%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 100px;
+    margin-top:1200px;
+  }
+  
+  .section2 img {
+    width: 50%;
+  }
+  
+  .section3 {
+    width: 50%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 100px;
+    margin-top:1860px;
+  }
+  
+  .section3 img {
+    width: 50%;
+  }
